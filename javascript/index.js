@@ -6,16 +6,30 @@
 	var humanList = document.querySelector('.list');
 
 
-		humanList = document.addEventListener('click', changeClass );
+		humanList.addEventListener('click', changeClass, true );
 
 		function changeClass ( event ) {
 			var target = event.target;
 
-			if ( target.classList.contains( CLASS_NAME ) ) {
+			while( true ){
 
-				target.classList.toggle('active');
+				if ( target === humanList ) return;
+
+				if ( target.parentElement !== humanList ) {
+
+					target = target.parentElement
+				}
+
+				if ( target.parentElement === humanList ) {
+
+					if ( target.classList.contains( CLASS_NAME ) ) {
+
+						target.classList.toggle('active');
+						return;
+					}
+				}
 			}
 		};
 
 
-})()
+})();
