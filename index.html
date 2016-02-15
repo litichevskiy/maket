@@ -3,18 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>maket</title>
-		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="stylesheet" type="text/css" href="navigation_panel.css">
-		<link rel="stylesheet" type="text/css" href="block_one.css">
-		<link rel="stylesheet" type="text/css" href="block_two.css">
-		<link rel="stylesheet" type="text/css" href="block_three.css">
+		<link rel="stylesheet" type="text/css" href="./css/navigation_panel.css">
+		<link rel="stylesheet" type="text/css" href="./css/block_one.css">
+		<link rel="stylesheet" type="text/css" href="./css/block_two.css">
+		<link rel="stylesheet" type="text/css" href="./css/block_three.css">
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
 	</head>
 	<body>
 
 		<div class="container">
+
 			<nav class="navigationPanel">
 				<div class="logo">
-					<img src="">
+					<img src="./logo/logo.gif">
 				</div>
 				<div class="menu">
 					<label for="displayMenu" class="displayMenu">
@@ -23,40 +24,76 @@
 					<input type="checkbox" id="displayMenu" class="displayMenu" />
 					<ul class="listElementMenu">
 						<li class="elementMenu">
-							<span>menu 1</span>
+							<span class="itemMenu">Menu 1</span>
 						</li>
 						<li class="elementMenu">
-							<span>menu 2</span>
+							<span class="itemMenu">Menu 2</span>
 						</li>
 						<li class="elementMenu">
-							<span>menu 3</span>
+							<span class="itemMenu">Menu 3</span>
 						</li>
-						<div class="empty">
-						</div>
-						<div class="help">
-							<button>help</button>
-						</div>
 					</ul>
+				</div>
+				<div class="help">
+					<button class="help">Help button</button>
 				</div>
 			</nav>
+
 			<aside class="blockOne">
-				<div>block 1</div>
+				<header>
+					<h3 class="headerBlock">
+						block 1
+					</h3>
+				</header>
+				<p class="content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 	enim adminim veniam, quis nostrud exercitation ullamco laboris 	nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 	nulla pariatur. Excepteur sint occaecat cupidatat non proident, 	sunt inculpa qui officia deserunt mollit anim id est laborum.
+				</p>
 			</aside>
+
+			<aside class="blockThree">
+				<header>
+					<h3 class="headerBlock">
+						block 3
+					</h3>
+				</header>
+			</aside>
+
 			<main class="blockTwo">
-				<div>
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
+				<header>
+					<h3 class="headerBlock">
+						block 2
+					</h3>
+				</header>
+				<ul class="list">
+					<li class="itemList">
+						<img class="human_profile" src="./images/human_profile.png">
+						<div class="descriptionProfile">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						</div>
+					</li>
+					<li class="itemList">
+						<img class="human_profile" src="./images/human_profile.png">
+						<div class="descriptionProfile">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						</div>
+					</li>
+					<li class="itemList">
+						<img class="human_profile" src="./images/human_profile.png">
+						<div class="descriptionProfile">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						</div>
+					</li>
+					<li class="itemList">
+						<img class="human_profile" src="./images/human_profile.png">
+						<div class="descriptionProfile">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						</div>
+					</li>
+				</ul>
 			</main>
-			<aside  class="blockThree">
-				<div>block 3</div>
-			</aside>
+
 		</div>
 
-		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="./javascript/index.js"></script>
 	</body>
 </html>

@@ -1,0 +1,20 @@
+.blockTwo{
+	background-color : #ABA8A8;
+	box-sizing : border-box;
+	margin : 10px 210px 0 260px;
+	height : inherit;
+}
+.list{
+	list-style-type : none;
+	padding : 0;
+}
+.itemList{
+	background-color : #E0E0E0;
+	height : 65px;
+	margin : 0 20px 10px 20px;
+
+	transition : 0.3s;
+}
+.itemList:hover{
+	cursor : pointer;
+}
