@@ -1,25 +1,12 @@
 (function(){
 
 	const
-		CLASS_NAME = 'itemList',
-		MAX_DESCRIPTION_LENGTH = 100;
+		CLASS_NAME = 'itemList';
 
 	var humanList = document.querySelector('.list');
 
 		humanList.addEventListener('click', changeClass );
 
-		window.onload = function (){
-			var humanProfile =  document.querySelectorAll('.descriptionProfile');
-
-			humanProfile.forEach = [].forEach;
-
-			humanProfile.forEach(function(item){
-
-				if (item.innerHTML.length > MAX_DESCRIPTION_LENGTH ) {
-
-				}
-			})
-		};
 
 		function changeClass ( event ) {
 			var target = event.target;

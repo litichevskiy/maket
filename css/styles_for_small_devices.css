@@ -20,6 +20,7 @@
 		position : static;
 		margin-top : 5px;
 		margin-left:0;
+		margin-bottom: 5px;
 		box-sizing : border-box;
 		font-size : 1.5em;
 		width : inherit;
@@ -30,7 +31,6 @@
 		margin-top :5px;
 		margin-left:0;
 		box-sizing : border-box;
-		font-size : 1.5em;
 		width : inherit;
 		padding : 1em;
 	}
