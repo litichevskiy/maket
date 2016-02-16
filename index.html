@@ -8,90 +8,99 @@
 		<link rel="stylesheet" type="text/css" href="./css/block_two.css">
 		<link rel="stylesheet" type="text/css" href="./css/block_three.css">
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="stylesheet" type="text/css" href="./css/styles_for_small_devices.css">
 	</head>
 	<body>
 
-		<div class="container">
+		<div class="mainBlock">
+			<input type="checkbox" id="displayMenu" data-role="displayMenu" />
+			<div class="container">
 
-			<nav class="navigationPanel">
-				<div class="logo">
-					<img src="./logo/logo.gif">
-				</div>
-				<div class="menu">
-					<label for="displayMenu" class="displayMenu">
-						<span class="openMenu"></span>
-					</label>
-					<input type="checkbox" id="displayMenu" class="displayMenu" />
-					<ul class="listElementMenu">
-						<li class="elementMenu">
-							<span class="itemMenu">Menu 1</span>
+				<nav class="navigationPanel">
+					<div class="logo">
+						<img src="./logo/big_logo.gif" class="bigLogo">
+						<img src="./logo/small_logo.jpg" class="smallLogo">
+					</div>
+					<div class="menu">
+						<label for="displayMenu" class="displayMenu">
+							<span class="openMenu">
+								<img src="./images/menu_icon.png" class="menu" />
+							</span>
+						</label>
+						<ul class="listElementMenu">
+							<li class="elementMenu">
+								<span class="itemMenu">Menu 1</span>
+							</li>
+							<li class="elementMenu">
+								<span class="itemMenu">Menu 2</span>
+							</li>
+							<li class="elementMenu">
+								<span class="itemMenu">Menu 3</span>
+							</li>
+						</ul>
+					</div>
+					<div class="help">
+						<button class="help">Help button</button>
+					</div>
+				</nav>
+
+				<aside class="blockOne">
+					<header>
+						<h3 class="headerBlock">
+							block 1
+						</h3>
+					</header>
+					<p class="content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 	enim 	adminim veniam, quis nostrud exercitation ullamco laboris 	nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 	reprehenderit in voluptate velit esse cillum dolore eu fugiat 	nulla pariatur. Excepteur sint occaecat cupidatat non proident, 		sunt inculpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</aside>
+
+
+				<main class="blockTwo">
+					<header>
+						<h3 class="headerBlock">
+							block 2
+						</h3>
+					</header>
+					<ul class="list">
+						<li class="itemList">
+							<img class="human_profile" src="./images/human_profile.png">
+							<div class="descriptionProfile">
+								1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							</div>
 						</li>
-						<li class="elementMenu">
-							<span class="itemMenu">Menu 2</span>
+						<li class="itemList">
+							<img class="human_profile" src="./images/human_profile.png">
+							<div class="descriptionProfile">
+								2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							</div>
 						</li>
-						<li class="elementMenu">
-							<span class="itemMenu">Menu 3</span>
+						<li class="itemList">
+							<img class="human_profile" src="./images/human_profile.png">
+							<div class="descriptionProfile">
+								3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							</div>
+						</li>
+						<li class="itemList">
+							<img class="human_profile" src="./images/human_profile.png">
+							<div class="descriptionProfile">
+								4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							</div>
 						</li>
 					</ul>
-				</div>
-				<div class="help">
-					<button class="help">Help button</button>
-				</div>
-			</nav>
+				</main>
 
-			<aside class="blockOne">
-				<header>
-					<h3 class="headerBlock">
-						block 1
-					</h3>
-				</header>
-				<p class="content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 	enim adminim veniam, quis nostrud exercitation ullamco laboris 	nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 	nulla pariatur. Excepteur sint occaecat cupidatat non proident, 	sunt inculpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</aside>
+				<aside class="blockThree">
+					<header>
+						<h3 class="headerBlock">
+							block 3
+						</h3>
+					</header>
+				</aside>
 
-			<aside class="blockThree">
-				<header>
-					<h3 class="headerBlock">
-						block 3
-					</h3>
-				</header>
-			</aside>
-
-			<main class="blockTwo">
-				<header>
-					<h3 class="headerBlock">
-						block 2
-					</h3>
-				</header>
-				<ul class="list">
-					<li class="itemList">
-						<img class="human_profile" src="./images/human_profile.png">
-						<div class="descriptionProfile">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						</div>
-					</li>
-					<li class="itemList">
-						<img class="human_profile" src="./images/human_profile.png">
-						<div class="descriptionProfile">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						</div>
-					</li>
-					<li class="itemList">
-						<img class="human_profile" src="./images/human_profile.png">
-						<div class="descriptionProfile">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						</div>
-					</li>
-					<li class="itemList">
-						<img class="human_profile" src="./images/human_profile.png">
-						<div class="descriptionProfile">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						</div>
-					</li>
-				</ul>
-			</main>
-
+			</div>
 		</div>
 
 		<script type="text/javascript" src="./javascript/index.js"></script>

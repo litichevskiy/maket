@@ -3,6 +3,8 @@
 	box-sizing : border-box;
 	margin : 10px 210px 0 260px;
 	height : inherit;
+	padding : 10px 0 0 0;
+	overflow : auto;
 }
 .list{
 	list-style-type : none;
@@ -12,9 +14,20 @@
 	background-color : #E0E0E0;
 	height : 65px;
 	margin : 0 20px 10px 20px;
+	text-overflow : ellipsis;
+	overflow : hidden;
 
-	transition : 0.3s;
+	transition: 0.3s ease-out;
+}
+.human_profile{
+	width : 64px;
+	height : 64px;
+	float : left;
+	margin-right: 10px;
 }
 .itemList:hover{
 	cursor : pointer;
+}
+.descriptionProfile{
+	padding: 10px;
 }

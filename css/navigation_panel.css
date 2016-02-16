@@ -22,6 +22,8 @@
 	height : inherit;
 	padding : 0;
 	margin : 0;
+	/*transition: 3s linear;*/
+	/*transition: left 2s ease-out;*/
 }
 .elementMenu{
 	border-right : 1px solid white;
@@ -33,11 +35,14 @@
 	padding : 0 1em 0 1em;
 	display : table-cell;
 }
+.smallLogo{
+	display: none;
+}
 .logo{
 	border-right : 1px solid white;
 	display : inline-block;
 	height : inherit;
-	width : 250px;
+	width : inherit;
 	float : left;
 }
 .help{
@@ -46,14 +51,17 @@
 	height : inherit;
 	float : right;
 }
-.help:focus{
-	border: none;
+button::-moz-focus-inner{
+	border:none;
 }
 button.help{
 	background-color : transparent;
 	outline : none;
 	border : none;
-	padding : 0;
+	padding : 10px;
+}
+input[data-role="displayMenu"]{
+	display:none;
 }
 .displayMenu{
 	display : none;

@@ -2,6 +2,14 @@ body,html{
 	width: 100%;
 	height: 100%;
 	margin: 0;
+	/*overflow:hidden;*/
+	/*overflow-x : hidden;*/
+}
+main,aside{
+	margin : 0;
+}
+.mainBlock{
+	overflow : hidden;
 }
 .container{
 	width:100%;
@@ -16,16 +24,12 @@ body,html{
 	text-align: center;
 	margin-top: 0;
 }
-.human_profile{
-	width: 64px;
-	height:64px;
-	float: left;
-}
 .active{
 	background-color: lightblue;
 	transition: 0.3s;
 }
-.descriptionProfile{
-	display: inline-block;
-	padding: 10px;
+.mainBlock{
+	width:100%;
+	height:100%;
+	overflow: hidden;
 }
